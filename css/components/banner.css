@@ -1,0 +1,24 @@
+.banner {
+  background-color: black;
+  padding: 10px;
+  height: fit-content;
+  background-position: center;
+  background-size: cover;
+  margin: 10px auto;
+}
+
+.banner h1{
+text-align: center;
+margin-top:10px;
+font-size: 26px;
+
+}
+
+.banner h2{
+margin-top: 40px;
+font-size: 20px;
+line-height: 20px;
+text-align: center;
+padding: 20px;
+line-height: 20px;
+}

@@ -1,0 +1,9 @@
+.container {
+  /*background-image: linear-gradient(514deg, rgba(0, 0, 0, 0.9) 40%, rgba(0, 0, 0, 0.7) 80%), url(../../images/cover-picture2.jpg);*/
+  height: fit-content;
+  background-position: center;
+  background-size: cover;
+  width: 1000px;
+  margin-left: 190px;
+  margin-right: 10px;
+}

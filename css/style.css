@@ -1,0 +1,115 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Amiko&family=Carter+One&family=Ceviche+One&family=Exo+2:wght@400;500;600&family=Fredoka+One&family=Mochiy+Pop+One&family=Rakkas&family=Russo+One&family=Yatra+One&display=swap");
+@import url("components/container.css");
+@import url("components/card.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/logo.css");
+@import url("components/sidebar.css");
+
+body {
+    font-family: 'Exo 2', sans-serif;
+    color: rgb(0, 255, 250);
+    background-color: black;
+    font-weight: lighter;
+}
+
+h1 {
+    font-family: 'Fredoka One', sans-serif;
+    font-weight: bolder;
+    color: rgb(250, 250, 250);
+    font-size: 24px;
+}
+
+h3{
+    margin: 10px;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+h4{
+  font-size: 17px;
+  margin: 10px 10px;
+  padding: 5px;
+
+}
+p{
+  font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: rgb(0, 255, 250);
+}
+
+.description h3{
+    color: white;
+}
+
+.list-inline{
+    display: inline;
+    list-style: none;
+    width: 1200px;
+
+}
+
+.list-inline li{
+    text-align: center;
+    font-size: 28;
+}
+
+.background{
+ background-image: linear-gradient(514deg, rgba(0, 0, 0, 0.9) 40%, rgba(0, 0, 0, 0.7) 80%), url(../../images/cover-picture2.jpg);
+ height: fit-content;
+ background-position: center;
+ background-size: cover;
+}
+
+.description h3, p{
+  color: black;
+}
+
+.description{
+  background-color: grey;
+  margin-left: 220px;
+  margin-right: 20px;
+  padding: 10px;
+  margin-top : 10px;
+  border-radius: 6px;
+}
+
+.typeform{
+  margin-left: 210px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 960px) {
+  .container{
+    width: 700px;
+  }
+
+@media (max-width: 720px) {
+  .container{
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+
+}
